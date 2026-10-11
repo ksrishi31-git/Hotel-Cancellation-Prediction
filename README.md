@@ -5,7 +5,7 @@
 This project focuses on predicting whether a hotel booking will be cancelled or not using **Logistic Regression**, a machine learning algorithm.
 The main goal is to understand how different booking details, such as lead time, number of guests, hotel type, and deposit type, can help predict cancellations.
 
-## Dataset
+## Dataset 
 
 The project uses the Hotel Booking Demand dataset, which contains information about bookings made at City Hotels and Resort Hotels.
 
