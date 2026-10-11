@@ -3,7 +3,6 @@
 ## About the Project
 
 This project focuses on predicting whether a hotel booking will be cancelled or not using **Logistic Regression**, a machine learning algorithm.
-
 The main goal is to understand how different booking details, such as lead time, number of guests, hotel type, and deposit type, can help predict cancellations.
 
 ## Dataset
@@ -23,19 +22,17 @@ The dataset includes details such as:
 
 - Python
 - Pandas and NumPy
-- Matplotlib and Seaborn
+- Matplotlib 
 - Scikit-learn
 
 ## Project Workflow
 
 The project starts with data cleaning, where missing values and duplicate records are handled. Categorical features are converted into numerical values using One-Hot Encoding, and numerical features are scaled using StandardScaler.
-
 The dataset is then divided into training and testing sets. A Logistic Regression model is trained to predict whether a booking will be cancelled.
 
 The model is evaluated using:
 - Accuracy
 - Precision
-- Recall
 - Confusion Matrix
 - ROC Curve
 
