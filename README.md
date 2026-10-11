@@ -1,12 +1,12 @@
- Hotel Booking Cancellation Prediction
+# Hotel Booking Cancellation Prediction
 
-About the Project
+## About the Project
 
 This project focuses on predicting whether a hotel booking will be cancelled or not using **Logistic Regression**, a machine learning algorithm.
 
 The main goal is to understand how different booking details, such as lead time, number of guests, hotel type, and deposit type, can help predict cancellations.
 
- Dataset
+## Dataset
 
 The project uses the Hotel Booking Demand dataset, which contains information about bookings made at City Hotels and Resort Hotels.
 
@@ -19,14 +19,14 @@ The dataset includes details such as:
 - Previous cancellations
 - Booking cancellation status
 
-Technologies Used
+## Technologies Used
 
 - Python
 - Pandas and NumPy
-- Matplotlib 
+- Matplotlib and Seaborn
 - Scikit-learn
 
-Project Workflow
+## Project Workflow
 
 The project starts with data cleaning, where missing values and duplicate records are handled. Categorical features are converted into numerical values using One-Hot Encoding, and numerical features are scaled using StandardScaler.
 
@@ -35,11 +35,12 @@ The dataset is then divided into training and testing sets. A Logistic Regressio
 The model is evaluated using:
 - Accuracy
 - Precision
+- Recall
 - Confusion Matrix
 - ROC Curve
 
 The project also displays predictions for real bookings from the test dataset and compares them with their actual cancellation status.
 
-Conclusion
+## Conclusion
 
 This project helped me understand the complete machine learning workflow, from preparing a dataset to training and evaluating a classification model. It also shows how Logistic Regression can be used to identify hotel bookings that are more likely to be cancelled.
